@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.15)
+add_executable(DemoBin try_bin_search.cpp)
+target_link_libraries(DemoBin LINK_PUBLIC Algo)
 
-add_executable(Demo try_bin_search.cpp)
-
-target_link_libraries(Demo LINK_PUBLIC Algo)
+add_executable(DemoLcs try_prefix_array.cpp)
+target_link_libraries(DemoLcs LINK_PUBLIC Algo)

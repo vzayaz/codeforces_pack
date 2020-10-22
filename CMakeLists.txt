@@ -4,5 +4,6 @@ project(Competitive_Programming)
 set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(Algorithms)
+add_subdirectory(DataStructures)
 add_subdirectory(Demo)
 add_subdirectory(Template)
